@@ -1,0 +1,59 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;  
+  align-items: center;      
+  overflow: hidden;         
+  background-image: linear-gradient(to right, #E07B39 , #B6A28E, #F5F5DC);
+  color: #f0f0f0; 
+}
+section {
+  padding-top: 4vh;
+  height: 96vh;
+  margin: 0 10rem;
+  box-sizing: border-box;
+  min-height: fit-content;
+}
+
+
+
+/* PROFILE SECTION */
+
+.Hero-prof {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  height: 80vh;
+}
+
+.Hero-pic {
+  display: flex;
+  height: 400px;
+  width: 400px;
+  margin: auto 0;
+}
+
+.Hero-text {
+  color: black;
+  align-self: center;
+  text-align: center;
+  justify-content: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.Hero-intro {
+  font-weight: 600;
+}
+
+.Hero-intro {
+  text-align: center;
+}
+
+.Hero-desc {
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+  justify-content: center;
+}
